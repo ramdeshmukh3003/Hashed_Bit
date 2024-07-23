@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="container">
+
+        <div class="logo"><img src="India-Gate.jpg" alt=""></div>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+
+        </div>
+
+    </header>
+    <nav class="menubar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="sidebar" id="show">
+            <h2>Relative Data</h2>
+            <p>Some custom data or links can go here.</p>
+            <ul>
+                <li>
+                    <p><a href="#">Top 10 Monuments of India </a></p>
+                </li>
+
+                <li>
+                    <p><a href="#">History behind it</a></p>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="btn">
+            <button id="btn1"> > </button>
+        </div>
+
+        <main class="content">
+            <div class="box">
+                <h3><a href="https://en.wikipedia.org/wiki/Taj_Mahal">TAJ MAHAL</a> </h3>
+                <img src="TAJ-MAHAL-PD-BLOG.jpg" alt="Image 1">
+                <p>AGRA</p>
+            </div>
+            <div class="box">
+                <h3><a href="https://en.wikipedia.org/wiki/Golden_Temple">GOLDEN TEMPLE</a></h3>
+                <img src="Golden Temple.png" alt="Image 2">
+                <p>AMRITSAR</p>
+            </div>
+            <div class="box">
+                <h3><a href="https://en.wikipedia.org/wiki/Hawa_Mahal">HAWA MAHAL</a></h3>
+                <img src="Hawa Mahal.png" alt="Image 3">
+                <p>JAIPUR</p>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>This Project just an Assignment</p>
+    </footer>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("#btn1").click(function () {
+
+                $(".sidebar").toggle();
+
+
+            })
+
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Creation Example</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script>
+
+        var newDiv = document.createElement('div');
+        newDiv.id = 'newDiv';
+        newDiv.className = 'myDiv';
+        newDiv.innerHTML = 'Hello, I am a new div!';
+
+        var container = document.getElementById('container');
+        container.appendChild(newDiv);
+    </script>
+</body>
+
+</html>

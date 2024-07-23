@@ -1,0 +1,23 @@
+/* Light theme styles */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}

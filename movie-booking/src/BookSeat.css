@@ -1,0 +1,47 @@
+.book-seat-container {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 50px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .book-seat-container h1 {
+    text-align: center;
+  }
+  
+  .book-seat-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-seat-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .book-seat-container label {
+    font-weight: bold;
+  }
+  
+  .book-seat-container input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .book-seat-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-seat-container button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
